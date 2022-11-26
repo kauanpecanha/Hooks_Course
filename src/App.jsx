@@ -3,6 +3,9 @@ import './App.css'
 import {useState} from 'react'
 import Usestate from './Components/UseState'
 import UseEffect from './Components/UseEffect'
+import UseRef from './Components/UseRef'
+import UseMemo from './Components/useMemo'
+
 
 import Counter from './Practice/Counter'
 import Welcome from './Practice/Welcome'
@@ -16,12 +19,15 @@ export default function App(){
         <div className='app'>
             {/* <Usestate /> */}
             {/* <UseEffect /> */}
+            {/* <UseRef /> */}
+            <UseMemo />
 
 
             {/* <Counter /> */}
             {/* <Welcome /> */}
             {/* <Fibonacci /> */}
-            <Rectangle />
+            {/* <Rectangle /> */}
+
         </div>
     )
 }
