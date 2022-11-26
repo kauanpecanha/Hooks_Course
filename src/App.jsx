@@ -7,15 +7,21 @@ import UseEffect from './Components/UseEffect'
 import Counter from './Practice/Counter'
 import Welcome from './Practice/Welcome'
 
+import Fibonacci from './Practice/Fibonacci'
+import Rectangle from './Practice/Rectangle'
+
+
 export default function App(){
         return(
         <div className='app'>
             {/* <Usestate /> */}
-            <UseEffect />
+            {/* <UseEffect /> */}
 
 
             {/* <Counter /> */}
-            {/* <Welcome /> */}           
+            {/* <Welcome /> */}
+            {/* <Fibonacci /> */}
+            <Rectangle />
         </div>
     )
 }
