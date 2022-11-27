@@ -12,6 +12,10 @@ import Welcome from './Practice/Welcome'
 
 import Fibonacci from './Practice/Fibonacci'
 import Rectangle from './Practice/Rectangle'
+import Triangle from "./Practice/Triangle"
+
+
+import Test from "./Practice/Test"
 
 
 export default function App(){
@@ -20,13 +24,16 @@ export default function App(){
             {/* <Usestate /> */}
             {/* <UseEffect /> */}
             {/* <UseRef /> */}
-            <UseMemo />
+            {/* <UseMemo /> */}
 
 
             {/* <Counter /> */}
             {/* <Welcome /> */}
             {/* <Fibonacci /> */}
             {/* <Rectangle /> */}
+            <Triangle />
+
+            {/* <Test /> */}
 
         </div>
     )
